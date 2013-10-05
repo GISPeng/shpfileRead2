@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ArcGIS/ArcGIS.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<AGSMapViewLayerDelegate,AGSMapViewTouchDelegate,AGSMapViewCalloutDelegate>
+
+@property (retain, nonatomic) IBOutlet AGSMapView *mapView;
+@property (retain,nonatomic) AGSGraphicsLayer *graphicsLayer;
+@property (nonatomic,retain) UIPopoverController *popover;
 
 @end

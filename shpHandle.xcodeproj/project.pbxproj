@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44A9065317EF06910027BA14 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44A9065217EF06910027BA14 /* ArcGIS.bundle */; };
+		44A9066117EF19300027BA14 /* XianCh_Pt.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 44A9065E17EF19300027BA14 /* XianCh_Pt.dbf */; };
+		44A9066217EF19300027BA14 /* XianCh_Pt.shp in Resources */ = {isa = PBXBuildFile; fileRef = 44A9065F17EF19300027BA14 /* XianCh_Pt.shp */; };
+		44A9066317EF19300027BA14 /* XianCh_Pt.shx in Resources */ = {isa = PBXBuildFile; fileRef = 44A9066017EF19300027BA14 /* XianCh_Pt.shx */; };
 		44AA290717EED90500D6A2DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA290617EED90400D6A2DE /* UIKit.framework */; };
 		44AA290917EED90500D6A2DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA290817EED90500D6A2DE /* Foundation.framework */; };
 		44AA290B17EED90500D6A2DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA290A17EED90500D6A2DE /* CoreGraphics.framework */; };
@@ -19,9 +23,61 @@
 		44AA292017EED90500D6A2DE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AA291E17EED90500D6A2DE /* MainStoryboard_iPhone.storyboard */; };
 		44AA292317EED90500D6A2DE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AA292117EED90500D6A2DE /* MainStoryboard_iPad.storyboard */; };
 		44AA292617EED90500D6A2DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA292517EED90500D6A2DE /* ViewController.m */; };
+		44AA292D17EED9E300D6A2DE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA292C17EED9E300D6A2DE /* CoreLocation.framework */; };
+		44AA292F17EED9FC00D6A2DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA292E17EED9FC00D6A2DE /* QuartzCore.framework */; };
+		44AA293117EEDA0900D6A2DE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA293017EEDA0900D6A2DE /* CoreText.framework */; };
+		44AA293317EEDA1700D6A2DE /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA293217EEDA1700D6A2DE /* libstdc++.dylib */; };
+		44AA293517EEDA2100D6A2DE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA293417EEDA2100D6A2DE /* MediaPlayer.framework */; };
+		44AA293717EEDA2B00D6A2DE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA293617EEDA2B00D6A2DE /* MobileCoreServices.framework */; };
+		44AA293917EEDA3400D6A2DE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA293817EEDA3400D6A2DE /* libz.dylib */; };
+		44AA293B17EEDA3E00D6A2DE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA293A17EEDA3D00D6A2DE /* Security.framework */; };
+		44AA298F17EEDAA400D6A2DE /* bou1_4l.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 44AA293D17EEDAA400D6A2DE /* bou1_4l.dbf */; };
+		44AA299017EEDAA400D6A2DE /* bou1_4l.shp in Resources */ = {isa = PBXBuildFile; fileRef = 44AA293E17EEDAA400D6A2DE /* bou1_4l.shp */; };
+		44AA299117EEDAA400D6A2DE /* bou1_4l.shx in Resources */ = {isa = PBXBuildFile; fileRef = 44AA293F17EEDAA400D6A2DE /* bou1_4l.shx */; };
+		44AA299217EEDAA400D6A2DE /* bou1_4p.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294017EEDAA400D6A2DE /* bou1_4p.dbf */; };
+		44AA299317EEDAA400D6A2DE /* bou1_4p.shp in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294117EEDAA400D6A2DE /* bou1_4p.shp */; };
+		44AA299417EEDAA400D6A2DE /* bou1_4p.shx in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294217EEDAA400D6A2DE /* bou1_4p.shx */; };
+		44AA299517EEDAA400D6A2DE /* pline.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294317EEDAA400D6A2DE /* pline.dbf */; };
+		44AA299617EEDAA400D6A2DE /* pline.shp in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294417EEDAA400D6A2DE /* pline.shp */; };
+		44AA299717EEDAA400D6A2DE /* pline.shx in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294517EEDAA400D6A2DE /* pline.shx */; };
+		44AA299817EEDAA400D6A2DE /* polygon.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294617EEDAA400D6A2DE /* polygon.dbf */; };
+		44AA299917EEDAA400D6A2DE /* polygon.shp in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294717EEDAA400D6A2DE /* polygon.shp */; };
+		44AA299A17EEDAA400D6A2DE /* polygon.shx in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294817EEDAA400D6A2DE /* polygon.shx */; };
+		44AA299B17EEDAA400D6A2DE /* XianCh_point.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294917EEDAA400D6A2DE /* XianCh_point.dbf */; };
+		44AA299C17EEDAA400D6A2DE /* XianCh_point.shp in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294A17EEDAA400D6A2DE /* XianCh_point.shp */; };
+		44AA299D17EEDAA400D6A2DE /* XianCh_point.shx in Resources */ = {isa = PBXBuildFile; fileRef = 44AA294B17EEDAA400D6A2DE /* XianCh_point.shx */; };
+		44AA299E17EEDAA400D6A2DE /* Cluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA294F17EEDAA400D6A2DE /* Cluster.m */; };
+		44AA299F17EEDAA400D6A2DE /* ClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA295117EEDAA400D6A2DE /* ClusterManager.m */; };
+		44AA29D217EEDAA400D6A2DE /* ShpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA298D17EEDAA400D6A2DE /* ShpHelper.m */; };
+		44AA29D417EEDB3100D6A2DE /* dbfopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 44AA29D317EEDB3100D6A2DE /* dbfopen.c */; };
+		44AA29D717EEDB4B00D6A2DE /* shpopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 44AA29D617EEDB4B00D6A2DE /* shpopen.c */; };
+		44AA29D917EEDB5700D6A2DE /* shptree.c in Sources */ = {isa = PBXBuildFile; fileRef = 44AA29D817EEDB5700D6A2DE /* shptree.c */; };
+		44AA29EA17EEDE0500D6A2DE /* bou1_4l.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29DB17EEDE0500D6A2DE /* bou1_4l.dbf */; };
+		44AA29EB17EEDE0500D6A2DE /* bou1_4l.shp in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29DC17EEDE0500D6A2DE /* bou1_4l.shp */; };
+		44AA29EC17EEDE0500D6A2DE /* bou1_4l.shx in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29DD17EEDE0500D6A2DE /* bou1_4l.shx */; };
+		44AA29ED17EEDE0500D6A2DE /* bou1_4p.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29DE17EEDE0500D6A2DE /* bou1_4p.dbf */; };
+		44AA29EE17EEDE0500D6A2DE /* bou1_4p.shp in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29DF17EEDE0500D6A2DE /* bou1_4p.shp */; };
+		44AA29EF17EEDE0500D6A2DE /* bou1_4p.shx in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29E017EEDE0500D6A2DE /* bou1_4p.shx */; };
+		44AA29F017EEDE0500D6A2DE /* pline.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29E117EEDE0500D6A2DE /* pline.dbf */; };
+		44AA29F117EEDE0500D6A2DE /* pline.shp in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29E217EEDE0500D6A2DE /* pline.shp */; };
+		44AA29F217EEDE0500D6A2DE /* pline.shx in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29E317EEDE0500D6A2DE /* pline.shx */; };
+		44AA29F317EEDE0500D6A2DE /* polygon.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29E417EEDE0500D6A2DE /* polygon.dbf */; };
+		44AA29F417EEDE0500D6A2DE /* polygon.shp in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29E517EEDE0500D6A2DE /* polygon.shp */; };
+		44AA29F517EEDE0500D6A2DE /* polygon.shx in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29E617EEDE0500D6A2DE /* polygon.shx */; };
+		44AA29F617EEDE0500D6A2DE /* XianCh_point.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29E717EEDE0500D6A2DE /* XianCh_point.dbf */; };
+		44AA29F717EEDE0500D6A2DE /* XianCh_point.shp in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29E817EEDE0500D6A2DE /* XianCh_point.shp */; };
+		44AA29F817EEDE0500D6A2DE /* XianCh_point.shx in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29E917EEDE0500D6A2DE /* XianCh_point.shx */; };
+		44AA29FA17EEDFCF00D6A2DE /* pushpin1.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AA29F917EEDFCF00D6A2DE /* pushpin1.png */; };
+		44AE507117F12C5000C2D9C1 /* FieldDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44AE507017F12C5000C2D9C1 /* FieldDetail.xib */; };
+		44AE507417F12D3200C2D9C1 /* FieldDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AE507317F12D3200C2D9C1 /* FieldDetailCell.m */; };
+		44AE507717F12D8600C2D9C1 /* FieldDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AE507617F12D8600C2D9C1 /* FieldDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44A9065217EF06910027BA14 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
+		44A9065E17EF19300027BA14 /* XianCh_Pt.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = XianCh_Pt.dbf; sourceTree = "<group>"; };
+		44A9065F17EF19300027BA14 /* XianCh_Pt.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = XianCh_Pt.shp; sourceTree = "<group>"; };
+		44A9066017EF19300027BA14 /* XianCh_Pt.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = XianCh_Pt.shx; sourceTree = "<group>"; };
 		44AA290317EED90400D6A2DE /* shpHandle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shpHandle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AA290617EED90400D6A2DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		44AA290817EED90500D6A2DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +95,60 @@
 		44AA292217EED90500D6A2DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		44AA292417EED90500D6A2DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		44AA292517EED90500D6A2DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44AA292C17EED9E300D6A2DE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		44AA292E17EED9FC00D6A2DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		44AA293017EEDA0900D6A2DE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		44AA293217EEDA1700D6A2DE /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		44AA293417EEDA2100D6A2DE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		44AA293617EEDA2B00D6A2DE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		44AA293817EEDA3400D6A2DE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		44AA293A17EEDA3D00D6A2DE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		44AA293D17EEDAA400D6A2DE /* bou1_4l.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4l.dbf; sourceTree = "<group>"; };
+		44AA293E17EEDAA400D6A2DE /* bou1_4l.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4l.shp; sourceTree = "<group>"; };
+		44AA293F17EEDAA400D6A2DE /* bou1_4l.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4l.shx; sourceTree = "<group>"; };
+		44AA294017EEDAA400D6A2DE /* bou1_4p.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4p.dbf; sourceTree = "<group>"; };
+		44AA294117EEDAA400D6A2DE /* bou1_4p.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4p.shp; sourceTree = "<group>"; };
+		44AA294217EEDAA400D6A2DE /* bou1_4p.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4p.shx; sourceTree = "<group>"; };
+		44AA294317EEDAA400D6A2DE /* pline.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pline.dbf; sourceTree = "<group>"; };
+		44AA294417EEDAA400D6A2DE /* pline.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pline.shp; sourceTree = "<group>"; };
+		44AA294517EEDAA400D6A2DE /* pline.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = pline.shx; sourceTree = "<group>"; };
+		44AA294617EEDAA400D6A2DE /* polygon.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = polygon.dbf; sourceTree = "<group>"; };
+		44AA294717EEDAA400D6A2DE /* polygon.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = polygon.shp; sourceTree = "<group>"; };
+		44AA294817EEDAA400D6A2DE /* polygon.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = polygon.shx; sourceTree = "<group>"; };
+		44AA294917EEDAA400D6A2DE /* XianCh_point.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = XianCh_point.dbf; sourceTree = "<group>"; };
+		44AA294A17EEDAA400D6A2DE /* XianCh_point.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = XianCh_point.shp; sourceTree = "<group>"; };
+		44AA294B17EEDAA400D6A2DE /* XianCh_point.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = XianCh_point.shx; sourceTree = "<group>"; };
+		44AA294E17EEDAA400D6A2DE /* Cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cluster.h; sourceTree = "<group>"; };
+		44AA294F17EEDAA400D6A2DE /* Cluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cluster.m; sourceTree = "<group>"; };
+		44AA295017EEDAA400D6A2DE /* ClusterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterManager.h; sourceTree = "<group>"; };
+		44AA295117EEDAA400D6A2DE /* ClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterManager.m; sourceTree = "<group>"; };
+		44AA298C17EEDAA400D6A2DE /* ShpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShpHelper.h; sourceTree = "<group>"; };
+		44AA298D17EEDAA400D6A2DE /* ShpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShpHelper.m; sourceTree = "<group>"; };
+		44AA29D317EEDB3100D6A2DE /* dbfopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dbfopen.c; sourceTree = "<group>"; };
+		44AA29D517EEDB3C00D6A2DE /* shapefil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shapefil.h; sourceTree = "<group>"; };
+		44AA29D617EEDB4B00D6A2DE /* shpopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shpopen.c; sourceTree = "<group>"; };
+		44AA29D817EEDB5700D6A2DE /* shptree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shptree.c; sourceTree = "<group>"; };
+		44AA29DB17EEDE0500D6A2DE /* bou1_4l.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4l.dbf; sourceTree = "<group>"; };
+		44AA29DC17EEDE0500D6A2DE /* bou1_4l.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4l.shp; sourceTree = "<group>"; };
+		44AA29DD17EEDE0500D6A2DE /* bou1_4l.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4l.shx; sourceTree = "<group>"; };
+		44AA29DE17EEDE0500D6A2DE /* bou1_4p.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4p.dbf; sourceTree = "<group>"; };
+		44AA29DF17EEDE0500D6A2DE /* bou1_4p.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4p.shp; sourceTree = "<group>"; };
+		44AA29E017EEDE0500D6A2DE /* bou1_4p.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = bou1_4p.shx; sourceTree = "<group>"; };
+		44AA29E117EEDE0500D6A2DE /* pline.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pline.dbf; sourceTree = "<group>"; };
+		44AA29E217EEDE0500D6A2DE /* pline.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pline.shp; sourceTree = "<group>"; };
+		44AA29E317EEDE0500D6A2DE /* pline.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = pline.shx; sourceTree = "<group>"; };
+		44AA29E417EEDE0500D6A2DE /* polygon.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = polygon.dbf; sourceTree = "<group>"; };
+		44AA29E517EEDE0500D6A2DE /* polygon.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = polygon.shp; sourceTree = "<group>"; };
+		44AA29E617EEDE0500D6A2DE /* polygon.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = polygon.shx; sourceTree = "<group>"; };
+		44AA29E717EEDE0500D6A2DE /* XianCh_point.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = XianCh_point.dbf; sourceTree = "<group>"; };
+		44AA29E817EEDE0500D6A2DE /* XianCh_point.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = XianCh_point.shp; sourceTree = "<group>"; };
+		44AA29E917EEDE0500D6A2DE /* XianCh_point.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = XianCh_point.shx; sourceTree = "<group>"; };
+		44AA29F917EEDFCF00D6A2DE /* pushpin1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin1.png; sourceTree = "<group>"; };
+		44AE507017F12C5000C2D9C1 /* FieldDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FieldDetail.xib; sourceTree = "<group>"; };
+		44AE507217F12D3200C2D9C1 /* FieldDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldDetailCell.h; sourceTree = "<group>"; };
+		44AE507317F12D3200C2D9C1 /* FieldDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldDetailCell.m; sourceTree = "<group>"; };
+		44AE507517F12D8600C2D9C1 /* FieldDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldDetailViewController.h; sourceTree = "<group>"; };
+		44AE507617F12D8600C2D9C1 /* FieldDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +156,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44AA290717EED90500D6A2DE /* UIKit.framework in Frameworks */,
+				44AA293B17EEDA3E00D6A2DE /* Security.framework in Frameworks */,
+				44AA293917EEDA3400D6A2DE /* libz.dylib in Frameworks */,
+				44AA293717EEDA2B00D6A2DE /* MobileCoreServices.framework in Frameworks */,
+				44AA293517EEDA2100D6A2DE /* MediaPlayer.framework in Frameworks */,
+				44AA293317EEDA1700D6A2DE /* libstdc++.dylib in Frameworks */,
+				44AA293117EEDA0900D6A2DE /* CoreText.framework in Frameworks */,
+				44AA292F17EED9FC00D6A2DE /* QuartzCore.framework in Frameworks */,
 				44AA290917EED90500D6A2DE /* Foundation.framework in Frameworks */,
+				44AA292D17EED9E300D6A2DE /* CoreLocation.framework in Frameworks */,
+				44AA290717EED90500D6A2DE /* UIKit.framework in Frameworks */,
 				44AA290B17EED90500D6A2DE /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +176,7 @@
 		44AA28FA17EED90400D6A2DE = {
 			isa = PBXGroup;
 			children = (
+				44A9065217EF06910027BA14 /* ArcGIS.bundle */,
 				44AA290C17EED90500D6A2DE /* shpHandle */,
 				44AA290517EED90400D6A2DE /* Frameworks */,
 				44AA290417EED90400D6A2DE /* Products */,
@@ -75,6 +194,14 @@
 		44AA290517EED90400D6A2DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44AA293A17EEDA3D00D6A2DE /* Security.framework */,
+				44AA293817EEDA3400D6A2DE /* libz.dylib */,
+				44AA293617EEDA2B00D6A2DE /* MobileCoreServices.framework */,
+				44AA293417EEDA2100D6A2DE /* MediaPlayer.framework */,
+				44AA293217EEDA1700D6A2DE /* libstdc++.dylib */,
+				44AA293017EEDA0900D6A2DE /* CoreText.framework */,
+				44AA292E17EED9FC00D6A2DE /* QuartzCore.framework */,
+				44AA292C17EED9E300D6A2DE /* CoreLocation.framework */,
 				44AA290617EED90400D6A2DE /* UIKit.framework */,
 				44AA290817EED90500D6A2DE /* Foundation.framework */,
 				44AA290A17EED90500D6A2DE /* CoreGraphics.framework */,
@@ -85,12 +212,19 @@
 		44AA290C17EED90500D6A2DE /* shpHandle */ = {
 			isa = PBXGroup;
 			children = (
+				44AA293C17EEDAA400D6A2DE /* res4_4m */,
+				44AA294C17EEDAA400D6A2DE /* ShpReader */,
 				44AA291517EED90500D6A2DE /* AppDelegate.h */,
 				44AA291617EED90500D6A2DE /* AppDelegate.m */,
 				44AA291E17EED90500D6A2DE /* MainStoryboard_iPhone.storyboard */,
 				44AA292117EED90500D6A2DE /* MainStoryboard_iPad.storyboard */,
 				44AA292417EED90500D6A2DE /* ViewController.h */,
 				44AA292517EED90500D6A2DE /* ViewController.m */,
+				44AE507017F12C5000C2D9C1 /* FieldDetail.xib */,
+				44AE507217F12D3200C2D9C1 /* FieldDetailCell.h */,
+				44AE507317F12D3200C2D9C1 /* FieldDetailCell.m */,
+				44AE507517F12D8600C2D9C1 /* FieldDetailViewController.h */,
+				44AE507617F12D8600C2D9C1 /* FieldDetailViewController.m */,
 				44AA290D17EED90500D6A2DE /* Supporting Files */,
 			);
 			path = shpHandle;
@@ -99,6 +233,8 @@
 		44AA290D17EED90500D6A2DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44AA29F917EEDFCF00D6A2DE /* pushpin1.png */,
+				44AA29DA17EEDE0500D6A2DE /* res4_4m */,
 				44AA290E17EED90500D6A2DE /* shpHandle-Info.plist */,
 				44AA290F17EED90500D6A2DE /* InfoPlist.strings */,
 				44AA291217EED90500D6A2DE /* main.m */,
@@ -108,6 +244,94 @@
 				44AA291C17EED90500D6A2DE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44AA293C17EEDAA400D6A2DE /* res4_4m */ = {
+			isa = PBXGroup;
+			children = (
+				44AA293D17EEDAA400D6A2DE /* bou1_4l.dbf */,
+				44AA293E17EEDAA400D6A2DE /* bou1_4l.shp */,
+				44AA293F17EEDAA400D6A2DE /* bou1_4l.shx */,
+				44AA294017EEDAA400D6A2DE /* bou1_4p.dbf */,
+				44AA294117EEDAA400D6A2DE /* bou1_4p.shp */,
+				44AA294217EEDAA400D6A2DE /* bou1_4p.shx */,
+				44AA294317EEDAA400D6A2DE /* pline.dbf */,
+				44AA294417EEDAA400D6A2DE /* pline.shp */,
+				44AA294517EEDAA400D6A2DE /* pline.shx */,
+				44AA294617EEDAA400D6A2DE /* polygon.dbf */,
+				44AA294717EEDAA400D6A2DE /* polygon.shp */,
+				44AA294817EEDAA400D6A2DE /* polygon.shx */,
+				44AA294917EEDAA400D6A2DE /* XianCh_point.dbf */,
+				44AA294A17EEDAA400D6A2DE /* XianCh_point.shp */,
+				44AA294B17EEDAA400D6A2DE /* XianCh_point.shx */,
+			);
+			path = res4_4m;
+			sourceTree = "<group>";
+		};
+		44AA294C17EEDAA400D6A2DE /* ShpReader */ = {
+			isa = PBXGroup;
+			children = (
+				44AA294D17EEDAA400D6A2DE /* Cluster */,
+				44AA295217EEDAA400D6A2DE /* shapelib-1.2.10 */,
+				44AA298B17EEDAA400D6A2DE /* shpHelper */,
+			);
+			path = ShpReader;
+			sourceTree = "<group>";
+		};
+		44AA294D17EEDAA400D6A2DE /* Cluster */ = {
+			isa = PBXGroup;
+			children = (
+				44AA294E17EEDAA400D6A2DE /* Cluster.h */,
+				44AA294F17EEDAA400D6A2DE /* Cluster.m */,
+				44AA295017EEDAA400D6A2DE /* ClusterManager.h */,
+				44AA295117EEDAA400D6A2DE /* ClusterManager.m */,
+			);
+			path = Cluster;
+			sourceTree = "<group>";
+		};
+		44AA295217EEDAA400D6A2DE /* shapelib-1.2.10 */ = {
+			isa = PBXGroup;
+			children = (
+				44AA29D817EEDB5700D6A2DE /* shptree.c */,
+				44AA29D617EEDB4B00D6A2DE /* shpopen.c */,
+				44AA29D517EEDB3C00D6A2DE /* shapefil.h */,
+				44AA29D317EEDB3100D6A2DE /* dbfopen.c */,
+			);
+			path = "shapelib-1.2.10";
+			sourceTree = "<group>";
+		};
+		44AA298B17EEDAA400D6A2DE /* shpHelper */ = {
+			isa = PBXGroup;
+			children = (
+				44AA298C17EEDAA400D6A2DE /* ShpHelper.h */,
+				44AA298D17EEDAA400D6A2DE /* ShpHelper.m */,
+			);
+			path = shpHelper;
+			sourceTree = "<group>";
+		};
+		44AA29DA17EEDE0500D6A2DE /* res4_4m */ = {
+			isa = PBXGroup;
+			children = (
+				44A9065E17EF19300027BA14 /* XianCh_Pt.dbf */,
+				44A9065F17EF19300027BA14 /* XianCh_Pt.shp */,
+				44A9066017EF19300027BA14 /* XianCh_Pt.shx */,
+				44AA29DB17EEDE0500D6A2DE /* bou1_4l.dbf */,
+				44AA29DC17EEDE0500D6A2DE /* bou1_4l.shp */,
+				44AA29DD17EEDE0500D6A2DE /* bou1_4l.shx */,
+				44AA29DE17EEDE0500D6A2DE /* bou1_4p.dbf */,
+				44AA29DF17EEDE0500D6A2DE /* bou1_4p.shp */,
+				44AA29E017EEDE0500D6A2DE /* bou1_4p.shx */,
+				44AA29E117EEDE0500D6A2DE /* pline.dbf */,
+				44AA29E217EEDE0500D6A2DE /* pline.shp */,
+				44AA29E317EEDE0500D6A2DE /* pline.shx */,
+				44AA29E417EEDE0500D6A2DE /* polygon.dbf */,
+				44AA29E517EEDE0500D6A2DE /* polygon.shp */,
+				44AA29E617EEDE0500D6A2DE /* polygon.shx */,
+				44AA29E717EEDE0500D6A2DE /* XianCh_point.dbf */,
+				44AA29E817EEDE0500D6A2DE /* XianCh_point.shp */,
+				44AA29E917EEDE0500D6A2DE /* XianCh_point.shx */,
+			);
+			path = res4_4m;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +391,42 @@
 				44AA291D17EED90500D6A2DE /* Default-568h@2x.png in Resources */,
 				44AA292017EED90500D6A2DE /* MainStoryboard_iPhone.storyboard in Resources */,
 				44AA292317EED90500D6A2DE /* MainStoryboard_iPad.storyboard in Resources */,
+				44AA298F17EEDAA400D6A2DE /* bou1_4l.dbf in Resources */,
+				44AA299017EEDAA400D6A2DE /* bou1_4l.shp in Resources */,
+				44AA299117EEDAA400D6A2DE /* bou1_4l.shx in Resources */,
+				44AA299217EEDAA400D6A2DE /* bou1_4p.dbf in Resources */,
+				44AA299317EEDAA400D6A2DE /* bou1_4p.shp in Resources */,
+				44AA299417EEDAA400D6A2DE /* bou1_4p.shx in Resources */,
+				44AA299517EEDAA400D6A2DE /* pline.dbf in Resources */,
+				44AA299617EEDAA400D6A2DE /* pline.shp in Resources */,
+				44AA299717EEDAA400D6A2DE /* pline.shx in Resources */,
+				44AA299817EEDAA400D6A2DE /* polygon.dbf in Resources */,
+				44AA299917EEDAA400D6A2DE /* polygon.shp in Resources */,
+				44AA299A17EEDAA400D6A2DE /* polygon.shx in Resources */,
+				44AA299B17EEDAA400D6A2DE /* XianCh_point.dbf in Resources */,
+				44AA299C17EEDAA400D6A2DE /* XianCh_point.shp in Resources */,
+				44AA299D17EEDAA400D6A2DE /* XianCh_point.shx in Resources */,
+				44AA29EA17EEDE0500D6A2DE /* bou1_4l.dbf in Resources */,
+				44AA29EB17EEDE0500D6A2DE /* bou1_4l.shp in Resources */,
+				44AA29EC17EEDE0500D6A2DE /* bou1_4l.shx in Resources */,
+				44AA29ED17EEDE0500D6A2DE /* bou1_4p.dbf in Resources */,
+				44AA29EE17EEDE0500D6A2DE /* bou1_4p.shp in Resources */,
+				44AA29EF17EEDE0500D6A2DE /* bou1_4p.shx in Resources */,
+				44AA29F017EEDE0500D6A2DE /* pline.dbf in Resources */,
+				44AA29F117EEDE0500D6A2DE /* pline.shp in Resources */,
+				44AA29F217EEDE0500D6A2DE /* pline.shx in Resources */,
+				44AA29F317EEDE0500D6A2DE /* polygon.dbf in Resources */,
+				44AA29F417EEDE0500D6A2DE /* polygon.shp in Resources */,
+				44AA29F517EEDE0500D6A2DE /* polygon.shx in Resources */,
+				44AA29F617EEDE0500D6A2DE /* XianCh_point.dbf in Resources */,
+				44AA29F717EEDE0500D6A2DE /* XianCh_point.shp in Resources */,
+				44AA29F817EEDE0500D6A2DE /* XianCh_point.shx in Resources */,
+				44AA29FA17EEDFCF00D6A2DE /* pushpin1.png in Resources */,
+				44A9065317EF06910027BA14 /* ArcGIS.bundle in Resources */,
+				44A9066117EF19300027BA14 /* XianCh_Pt.dbf in Resources */,
+				44A9066217EF19300027BA14 /* XianCh_Pt.shp in Resources */,
+				44A9066317EF19300027BA14 /* XianCh_Pt.shx in Resources */,
+				44AE507117F12C5000C2D9C1 /* FieldDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +440,14 @@
 				44AA291317EED90500D6A2DE /* main.m in Sources */,
 				44AA291717EED90500D6A2DE /* AppDelegate.m in Sources */,
 				44AA292617EED90500D6A2DE /* ViewController.m in Sources */,
+				44AA299E17EEDAA400D6A2DE /* Cluster.m in Sources */,
+				44AA299F17EEDAA400D6A2DE /* ClusterManager.m in Sources */,
+				44AA29D217EEDAA400D6A2DE /* ShpHelper.m in Sources */,
+				44AA29D417EEDB3100D6A2DE /* dbfopen.c in Sources */,
+				44AA29D717EEDB4B00D6A2DE /* shpopen.c in Sources */,
+				44AA29D917EEDB5700D6A2DE /* shptree.c in Sources */,
+				44AE507417F12D3200C2D9C1 /* FieldDetailCell.m in Sources */,
+				44AE507717F12D8600C2D9C1 /* FieldDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +540,16 @@
 		44AA292A17EED90500D6A2DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "shpHandle/shpHandle-Prefix.pch";
 				INFOPLIST_FILE = "shpHandle/shpHandle-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -283,9 +558,16 @@
 		44AA292B17EED90500D6A2DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "shpHandle/shpHandle-Prefix.pch";
 				INFOPLIST_FILE = "shpHandle/shpHandle-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -310,6 +592,7 @@
 				44AA292B17EED90500D6A2DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
